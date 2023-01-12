@@ -1,0 +1,75 @@
+.header-burger {
+  display: none;
+  width: 375px;
+  height: 71px;
+  background: #2D303A;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-burger {
+  margin-right: 135px;
+}
+
+.logo-span-burger {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.6875px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;  
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.menu-burger {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.035em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.menu-burger:hover {
+  color: #F06C64;
+}
+  
+.burger-list {
+  list-style: none;
+  margin-bottom: 27px;
+}
+
+.drop-button {
+  background: #2D303A;
+  width: max-content;
+  height: max-content;
+  border: none;
+  margin-left: 20px;
+}
+
+.drop-button:hover {
+  transform: rotate(90deg);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2D303A;
+  min-width: 278px;
+  height: 100vh;
+  z-index: 1;
+  box-shadow: 100px 1px 2px 0px rgba(0, 0, 0, .44);
+}
+
+.drop-down:hover .dropdown-content {
+  display: block;
+}
+
+.position-list {
+  margin-top: 161px;
+  margin-left: 30px;
+}

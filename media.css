@@ -1,0 +1,97 @@
+@media screen and (max-width: 1000px) {
+  .portfolio {
+    height: max-content;
+    padding-bottom: 73px;
+  }
+
+  .our-services {
+   height: max-content;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .logo {
+    height: max-content;
+    margin-left: 2px;
+  }
+  
+  nav {
+    margin-right: 2px;
+  }
+
+  .cover {
+    height: auto;
+    min-height: 447.25px;
+  }
+
+  .our-services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(340px, 340px));
+  }
+
+  .portfolio-grid {
+    gap: 19.65px;
+    grid-template-columns: repeat(auto-fit, minmax(216.19px, 183.76px));
+  }
+
+  .gallery-grid {
+    width: 216.19px;
+    height: 183.76px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cover {
+    height: auto;
+    min-height: 300px;
+  }
+
+  .portfolio-grid {
+    gap: 13px;
+    grid-template-columns: repeat(auto-fit, minmax(151px, 128px));
+  }
+
+  .gallery-grid {
+    width: 151px;
+    height: 128px;
+  } 
+
+  .portfolio {
+    padding-bottom: 42px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header-burger {
+    display: flex
+  }
+
+  .cursor-pointer {
+    width: 14.08px;
+    height: 24.9px;
+  }
+
+  .cover {
+    height: auto;
+    min-height: 218.38px;
+  }
+
+  .p-footer {
+    display: none;
+  }
+  
+  .scl-icons-body {
+    margin: auto;
+  }
+
+  header {
+    display: none;
+  }
+
+  .none {
+    display: none;
+  }
+}
+
+
+
+
